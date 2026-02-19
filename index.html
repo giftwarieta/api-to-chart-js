@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Utility & TFJS Visor Chart | Warieta Gift Ejovwoke</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <!-- Importing TensorFlow.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+    <!-- import tfjs-vis -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@latest"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Dashboard Utility</h1>
+
+        <div class="card">
+            <h2>Multiply Numbers</h2>
+            <p class="subtitle">Enter numbers separated by commas.</p>
+            <input type="text" id="numbersInput" placeholder="e.g., 2, 4, 10, 0.5">
+            <button onclick="handleMultiply()">Calculate Product</button>
+            <div id="multiplyResult" class="result-text">Result: </div>
+        </div>
+
+        <div class="card">
+            <h2>User Data Visualization</h2>
+            <p class="subtitle">Fetches user data and plots Username vs. Full Name Length.</p>
+            <button id="plotBtn" onclick="fetchAndPlotData()">Fetch Data & Plot Chart</button>
+            <div id="apiStatus" class="result-text">Status: Waiting to fetch...</div>
+            
+            <div id="chartSurface">
+                Chart will appear here
+            </div>
+        </div>
+    <div class="footer">
+        <p>&copy; 2026 Warieta Gift Ejovwoke. All rights reserved.</p>
+    </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
