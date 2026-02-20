@@ -4,8 +4,7 @@ A clean, vanilla HTML/CSS/JS web application that demonstrates two core utilitie
 1. **Dynamic Math Operations:** A flexible function that accepts a variable number of arguments and calculates their product.
 2. **Data Visualization:** An asynchronous API fetcher that retrieves user data from JSONPlaceholder, transforms it, and plots an interactive bar chart using [TensorFlow.js Visor](https://js.tensorflow.org/api_vis/latest/).
 
-![App Screenshot](https://via.placeholder.com/800x400.png?text=Replace+with+your+app+screenshot)
-*(Note: Replace the image link above with a screenshot of your actual dashboard once deployed!)*
+
 
 ## ✨ Features
 * **Variable Argument Multiplication:** Uses ES6 Rest Parameters to handle and multiply an infinite amount of user-inputted numbers.
